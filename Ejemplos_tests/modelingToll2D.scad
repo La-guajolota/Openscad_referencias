@@ -15,8 +15,7 @@ Here are the key parameters and what they do:
    - Specifies the number of slices used in the extrusion. More slices result in a smoother twist.
 
 4. **scale** (optional):
-   - Specifies the scaling factor applied to the shape as it is extruded. 
-   It can be a single value or a vector `[scaleX, scaleY]`.
+   - Specifies the scaling factor applied to the shape as it is extrudle value or a vector `[scaleX, scaleY]`.
 
 5. **center** (optional):
    - If `true`, the extrusion is centered along the Z-axis. If `false` (default), the extrusion starts from the Z=0 plane.
@@ -47,6 +46,8 @@ The `linear_extrude` function in your code creates four twisted extrusions of sq
 colors (red, green, blue, yellow), each positioned at different locations on the XY plane. The extrusions are twisted by 720 
 degrees over a height of 100 units, creating visually interesting 3D shapes.
 */
+echo(version());
+echo(version_num());
 
 slices_ = 100;
 twist_ = 360; 
